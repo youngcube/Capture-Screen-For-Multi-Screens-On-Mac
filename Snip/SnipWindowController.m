@@ -281,8 +281,6 @@ const int kAdjustKnown = 8;
         self.dragWindowRect = self.captureWindowRect;
         self.dragDirection = [self dragDirectionFromPoint:[NSEvent mouseLocation]];
     }
-
-
 }
 
 - (void)mouseUp:(NSEvent *)theEvent

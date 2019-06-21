@@ -29,7 +29,6 @@
 		D265E3871A820CFB00E301D9 /* ScreenCapture_toolbar_rect_ineffect.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D265E3831A820CFB00E301D9 /* ScreenCapture_toolbar_rect_ineffect.tiff */; };
 		D265E3881A820CFB00E301D9 /* ScreenCapture_toolbar_tick_normal.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D265E3841A820CFB00E301D9 /* ScreenCapture_toolbar_tick_normal.tiff */; };
 		D29A35651A83581F00DD41BC /* ToolContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A35641A83581F00DD41BC /* ToolContainer.m */; };
-		D29A356B1A836AC300DD41BC /* ImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A356A1A836AC300DD41BC /* ImageButton.m */; };
 		D29A35711A8398BD00DD41BC /* app.icns in Resources */ = {isa = PBXBuildFile; fileRef = D29A35701A8398BD00DD41BC /* app.icns */; };
 		E4863E6CA739266957BD4F58 /* ScreenCapture_toolbar_arrow_effect.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E4828F5DDC7EFE6DEA6F447B /* ScreenCapture_toolbar_arrow_effect.tiff */; };
 		E48BED02CE8B6CAAC23B336E /* ScreenCapture_toolbar_arrow_ineffect.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E48FB2347B030F190C5A78EC /* ScreenCapture_toolbar_arrow_ineffect.tiff */; };
@@ -82,9 +81,6 @@
 		D265E3841A820CFB00E301D9 /* ScreenCapture_toolbar_tick_normal.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ScreenCapture_toolbar_tick_normal.tiff; sourceTree = "<group>"; };
 		D29A35631A83581F00DD41BC /* ToolContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolContainer.h; sourceTree = "<group>"; };
 		D29A35641A83581F00DD41BC /* ToolContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolContainer.m; sourceTree = "<group>"; };
-		D29A35691A836AC300DD41BC /* ImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageButton.h; sourceTree = "<group>"; };
-		D29A356A1A836AC300DD41BC /* ImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageButton.m; sourceTree = "<group>"; };
-		D29A356F1A838D6700DD41BC /* MouseEventProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MouseEventProtocol.h; sourceTree = "<group>"; };
 		D29A35701A8398BD00DD41BC /* app.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = app.icns; sourceTree = "<group>"; };
 		E4828F5DDC7EFE6DEA6F447B /* ScreenCapture_toolbar_arrow_effect.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ScreenCapture_toolbar_arrow_effect.tiff; sourceTree = "<group>"; };
 		E489AD867445B4B4C44E7DAB /* ScreenCapture_toolbar_ellipse_ineffect.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ScreenCapture_toolbar_ellipse_ineffect.tiff; sourceTree = "<group>"; };
@@ -125,9 +121,6 @@
 				326AA0CA1A7D2C6000507232 /* SnipUtil.m */,
 				D29A35631A83581F00DD41BC /* ToolContainer.h */,
 				D29A35641A83581F00DD41BC /* ToolContainer.m */,
-				D29A35691A836AC300DD41BC /* ImageButton.h */,
-				D29A356A1A836AC300DD41BC /* ImageButton.m */,
-				D29A356F1A838D6700DD41BC /* MouseEventProtocol.h */,
 			);
 			name = Snip;
 			sourceTree = "<group>";
@@ -331,7 +324,6 @@
 			files = (
 				326AA0B71A7D116E00507232 /* DemoViewController.m in Sources */,
 				326AA0C51A7D1B8200507232 /* SnipWindow.m in Sources */,
-				D29A356B1A836AC300DD41BC /* ImageButton.m in Sources */,
 				D29A35651A83581F00DD41BC /* ToolContainer.m in Sources */,
 				326AA0C11A7D1B4F00507232 /* SnipWindowController.m in Sources */,
 				326AA0BA1A7D11E800507232 /* SnipManager.m in Sources */,

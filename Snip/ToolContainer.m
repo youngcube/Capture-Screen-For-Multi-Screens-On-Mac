@@ -10,10 +10,10 @@
 #import "SnipUtil.h"
 
 @interface ToolContainer ()
-@property ImageButton *cancelButton;
-@property ImageButton *okButton;
+@property NSButton *cancelButton;
+@property NSButton *okButton;
 
-@property(nonatomic, copy) NSArray<ImageButton *> *tools;
+@property(nonatomic, copy) NSArray<NSButton *> *tools;
 @end
 
 @implementation ToolContainer
@@ -28,7 +28,7 @@
         _okButton.tag = ActionOK;
 
         _tools = @[_cancelButton,_okButton];
-        for (ImageButton *btn in _tools) {
+        for (NSButton *btn in _tools) {
             btn.target = self;
             btn.action = @selector(onToolClick:);
             [self addSubview:btn];
@@ -54,7 +54,7 @@
     int step = 35;
     int margin = 10;
     int index = 0;
-    for (ImageButton *btn in self.tools) {
+    for (NSButton *btn in self.tools) {
         [btn setFrame:NSMakeRect(margin+step * (index++), 0, 28, 26)];
     }
 }

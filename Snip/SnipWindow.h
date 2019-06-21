@@ -7,7 +7,16 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "MouseEventProtocol.h"
+@protocol MouseEventProtocol <NSObject>
+
+- (void)mouseDown:(NSEvent *)theEvent;
+
+- (void)mouseUp:(NSEvent *)theEvent;
+
+- (void)mouseDragged:(NSEvent *)theEvent;
+
+- (void)mouseMoved:(NSEvent *)theEvent;
+@end
 
 @interface SnipWindow : NSPanel
 

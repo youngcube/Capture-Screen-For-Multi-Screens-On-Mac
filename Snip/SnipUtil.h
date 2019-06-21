@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import <Cocoa/Cocoa.h>
-#import "ImageButton.h"
 
 @interface SnipUtil : NSObject
 + (CGImageRef)screenShot:(NSScreen *)screen;
@@ -23,5 +22,5 @@
 
 + (NSRect)cgWindowRectToScreenRect:(CGRect)windowRect;
 
-+ (ImageButton *)createButton:(NSImage *)image withAlternate:(NSImage *)alter;
++ (NSButton *)createButton:(NSImage *)image withAlternate:(NSImage *)alter;
 @end

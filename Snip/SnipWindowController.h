@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import <Foundation/Foundation.h>
-#import "MouseEventProtocol.h"
+#import "SnipWindow.h"
 
 @interface SnipWindowController : NSWindowController <NSWindowDelegate, MouseEventProtocol>
 

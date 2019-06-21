@@ -76,9 +76,9 @@
     return rect;
 }
 
-+ (ImageButton *)createButton:(NSImage *)image withAlternate:(NSImage *)alter
++ (NSButton *)createButton:(NSImage *)image withAlternate:(NSImage *)alter
 {
-    ImageButton *button = [[ImageButton alloc] init];
+    NSButton *button = [[NSButton alloc] init];
     //button.bordered = NO;
     //button.bezelStyle = NSShadowlessSquareBezelStyle;
     [button setImage:image];
