@@ -10,7 +10,6 @@
 		326AA0B71A7D116E00507232 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 326AA0B61A7D116E00507232 /* DemoViewController.m */; };
 		326AA0BA1A7D11E800507232 /* SnipManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 326AA0B91A7D11E800507232 /* SnipManager.m */; };
 		326AA0C11A7D1B4F00507232 /* SnipWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 326AA0BF1A7D1B4F00507232 /* SnipWindowController.m */; };
-		326AA0C21A7D1B4F00507232 /* SnipWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 326AA0C01A7D1B4F00507232 /* SnipWindowController.xib */; };
 		326AA0C51A7D1B8200507232 /* SnipWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 326AA0C41A7D1B8200507232 /* SnipWindow.m */; };
 		326AA0C81A7D296800507232 /* SnipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 326AA0C71A7D296800507232 /* SnipView.m */; };
 		326AA0CB1A7D2C6000507232 /* SnipUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 326AA0CA1A7D2C6000507232 /* SnipUtil.m */; };
@@ -23,20 +22,15 @@
 		B30E2DC0205F6288008CD6A4 /* ScreenCapture_toolbar_text_effect.tiff in Resources */ = {isa = PBXBuildFile; fileRef = B30E2DBF205F6288008CD6A4 /* ScreenCapture_toolbar_text_effect.tiff */; };
 		B30E2DC3205F8482008CD6A4 /* ScreenCapture_toolbar_pen_ineffect.tiff in Resources */ = {isa = PBXBuildFile; fileRef = B30E2DC1205F8482008CD6A4 /* ScreenCapture_toolbar_pen_ineffect.tiff */; };
 		B30E2DC4205F8482008CD6A4 /* ScreenCapture_toolbar_pen_effect.tiff in Resources */ = {isa = PBXBuildFile; fileRef = B30E2DC2205F8482008CD6A4 /* ScreenCapture_toolbar_pen_effect.tiff */; };
-		B30E2DC7205F9915008CD6A4 /* AutoHeightTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B30E2DC6205F9915008CD6A4 /* AutoHeightTextView.m */; };
 		B3816566205FB0D000659960 /* ScreenCapture_toolbar_mosaic_ineffect.tiff in Resources */ = {isa = PBXBuildFile; fileRef = B3816564205FB0D000659960 /* ScreenCapture_toolbar_mosaic_ineffect.tiff */; };
 		B3816567205FB0D000659960 /* ScreenCapture_toolbar_mosaic_effect.tiff in Resources */ = {isa = PBXBuildFile; fileRef = B3816565205FB0D000659960 /* ScreenCapture_toolbar_mosaic_effect.tiff */; };
 		D265E3851A820CFB00E301D9 /* ScreenCapture_toolbar_cross_normal.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D265E3811A820CFB00E301D9 /* ScreenCapture_toolbar_cross_normal.tiff */; };
 		D265E3861A820CFB00E301D9 /* ScreenCapture_toolbar_rect_effect.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D265E3821A820CFB00E301D9 /* ScreenCapture_toolbar_rect_effect.tiff */; };
 		D265E3871A820CFB00E301D9 /* ScreenCapture_toolbar_rect_ineffect.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D265E3831A820CFB00E301D9 /* ScreenCapture_toolbar_rect_ineffect.tiff */; };
 		D265E3881A820CFB00E301D9 /* ScreenCapture_toolbar_tick_normal.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D265E3841A820CFB00E301D9 /* ScreenCapture_toolbar_tick_normal.tiff */; };
-		D265E38E1A824A0800E301D9 /* DrawPathInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D265E38D1A824A0800E301D9 /* DrawPathInfo.m */; };
 		D29A35651A83581F00DD41BC /* ToolContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A35641A83581F00DD41BC /* ToolContainer.m */; };
-		D29A35681A835E5D00DD41BC /* NSColor+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A35671A835E5D00DD41BC /* NSColor+Helper.m */; };
 		D29A356B1A836AC300DD41BC /* ImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A356A1A836AC300DD41BC /* ImageButton.m */; };
-		D29A356E1A836F8000DD41BC /* DrawPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = D29A356D1A836F8000DD41BC /* DrawPathView.m */; };
 		D29A35711A8398BD00DD41BC /* app.icns in Resources */ = {isa = PBXBuildFile; fileRef = D29A35701A8398BD00DD41BC /* app.icns */; };
-		D2AD02BD1A84A46A00426004 /* SimpleLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AD02BC1A84A46A00426004 /* SimpleLabelView.m */; };
 		E4863E6CA739266957BD4F58 /* ScreenCapture_toolbar_arrow_effect.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E4828F5DDC7EFE6DEA6F447B /* ScreenCapture_toolbar_arrow_effect.tiff */; };
 		E48BED02CE8B6CAAC23B336E /* ScreenCapture_toolbar_arrow_ineffect.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E48FB2347B030F190C5A78EC /* ScreenCapture_toolbar_arrow_ineffect.tiff */; };
 		E48CBAD88C3C8745A843C9CA /* ScreenCapture_toolbar_ellipse_ineffect.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E489AD867445B4B4C44E7DAB /* ScreenCapture_toolbar_ellipse_ineffect.tiff */; };
@@ -60,7 +54,6 @@
 		326AA0B91A7D11E800507232 /* SnipManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnipManager.m; sourceTree = "<group>"; };
 		326AA0BE1A7D1B4F00507232 /* SnipWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnipWindowController.h; sourceTree = "<group>"; };
 		326AA0BF1A7D1B4F00507232 /* SnipWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnipWindowController.m; sourceTree = "<group>"; };
-		326AA0C01A7D1B4F00507232 /* SnipWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnipWindowController.xib; sourceTree = "<group>"; };
 		326AA0C31A7D1B8200507232 /* SnipWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnipWindow.h; sourceTree = "<group>"; };
 		326AA0C41A7D1B8200507232 /* SnipWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnipWindow.m; sourceTree = "<group>"; };
 		326AA0C61A7D296800507232 /* SnipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnipView.h; sourceTree = "<group>"; };
@@ -81,28 +74,18 @@
 		B30E2DBF205F6288008CD6A4 /* ScreenCapture_toolbar_text_effect.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ScreenCapture_toolbar_text_effect.tiff; sourceTree = "<group>"; };
 		B30E2DC1205F8482008CD6A4 /* ScreenCapture_toolbar_pen_ineffect.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ScreenCapture_toolbar_pen_ineffect.tiff; sourceTree = "<group>"; };
 		B30E2DC2205F8482008CD6A4 /* ScreenCapture_toolbar_pen_effect.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ScreenCapture_toolbar_pen_effect.tiff; sourceTree = "<group>"; };
-		B30E2DC5205F9915008CD6A4 /* AutoHeightTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoHeightTextView.h; sourceTree = "<group>"; };
-		B30E2DC6205F9915008CD6A4 /* AutoHeightTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoHeightTextView.m; sourceTree = "<group>"; };
 		B3816564205FB0D000659960 /* ScreenCapture_toolbar_mosaic_ineffect.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ScreenCapture_toolbar_mosaic_ineffect.tiff; sourceTree = "<group>"; };
 		B3816565205FB0D000659960 /* ScreenCapture_toolbar_mosaic_effect.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ScreenCapture_toolbar_mosaic_effect.tiff; sourceTree = "<group>"; };
 		D265E3811A820CFB00E301D9 /* ScreenCapture_toolbar_cross_normal.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ScreenCapture_toolbar_cross_normal.tiff; sourceTree = "<group>"; };
 		D265E3821A820CFB00E301D9 /* ScreenCapture_toolbar_rect_effect.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ScreenCapture_toolbar_rect_effect.tiff; sourceTree = "<group>"; };
 		D265E3831A820CFB00E301D9 /* ScreenCapture_toolbar_rect_ineffect.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ScreenCapture_toolbar_rect_ineffect.tiff; sourceTree = "<group>"; };
 		D265E3841A820CFB00E301D9 /* ScreenCapture_toolbar_tick_normal.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ScreenCapture_toolbar_tick_normal.tiff; sourceTree = "<group>"; };
-		D265E38C1A824A0800E301D9 /* DrawPathInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPathInfo.h; sourceTree = "<group>"; };
-		D265E38D1A824A0800E301D9 /* DrawPathInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPathInfo.m; sourceTree = "<group>"; };
 		D29A35631A83581F00DD41BC /* ToolContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolContainer.h; sourceTree = "<group>"; };
 		D29A35641A83581F00DD41BC /* ToolContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolContainer.m; sourceTree = "<group>"; };
-		D29A35661A835E5D00DD41BC /* NSColor+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Helper.h"; sourceTree = "<group>"; };
-		D29A35671A835E5D00DD41BC /* NSColor+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Helper.m"; sourceTree = "<group>"; };
 		D29A35691A836AC300DD41BC /* ImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageButton.h; sourceTree = "<group>"; };
 		D29A356A1A836AC300DD41BC /* ImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageButton.m; sourceTree = "<group>"; };
-		D29A356C1A836F8000DD41BC /* DrawPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPathView.h; sourceTree = "<group>"; };
-		D29A356D1A836F8000DD41BC /* DrawPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPathView.m; sourceTree = "<group>"; };
 		D29A356F1A838D6700DD41BC /* MouseEventProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MouseEventProtocol.h; sourceTree = "<group>"; };
 		D29A35701A8398BD00DD41BC /* app.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = app.icns; sourceTree = "<group>"; };
-		D2AD02BB1A84A46A00426004 /* SimpleLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleLabelView.h; sourceTree = "<group>"; };
-		D2AD02BC1A84A46A00426004 /* SimpleLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleLabelView.m; sourceTree = "<group>"; };
 		E4828F5DDC7EFE6DEA6F447B /* ScreenCapture_toolbar_arrow_effect.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ScreenCapture_toolbar_arrow_effect.tiff; sourceTree = "<group>"; };
 		E489AD867445B4B4C44E7DAB /* ScreenCapture_toolbar_ellipse_ineffect.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ScreenCapture_toolbar_ellipse_ineffect.tiff; sourceTree = "<group>"; };
 		E48D898BE67DD2232A4FD3AF /* ScreenCapture_toolbar_ellipse_effect.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ScreenCapture_toolbar_ellipse_effect.tiff; sourceTree = "<group>"; };
@@ -134,28 +117,17 @@
 				326AA0B91A7D11E800507232 /* SnipManager.m */,
 				326AA0BE1A7D1B4F00507232 /* SnipWindowController.h */,
 				326AA0BF1A7D1B4F00507232 /* SnipWindowController.m */,
-				326AA0C01A7D1B4F00507232 /* SnipWindowController.xib */,
 				326AA0C31A7D1B8200507232 /* SnipWindow.h */,
 				326AA0C41A7D1B8200507232 /* SnipWindow.m */,
 				326AA0C61A7D296800507232 /* SnipView.h */,
 				326AA0C71A7D296800507232 /* SnipView.m */,
 				326AA0C91A7D2C6000507232 /* SnipUtil.h */,
 				326AA0CA1A7D2C6000507232 /* SnipUtil.m */,
-				D265E38C1A824A0800E301D9 /* DrawPathInfo.h */,
-				D265E38D1A824A0800E301D9 /* DrawPathInfo.m */,
 				D29A35631A83581F00DD41BC /* ToolContainer.h */,
 				D29A35641A83581F00DD41BC /* ToolContainer.m */,
-				D29A35661A835E5D00DD41BC /* NSColor+Helper.h */,
-				D29A35671A835E5D00DD41BC /* NSColor+Helper.m */,
 				D29A35691A836AC300DD41BC /* ImageButton.h */,
 				D29A356A1A836AC300DD41BC /* ImageButton.m */,
-				D29A356C1A836F8000DD41BC /* DrawPathView.h */,
-				D29A356D1A836F8000DD41BC /* DrawPathView.m */,
 				D29A356F1A838D6700DD41BC /* MouseEventProtocol.h */,
-				D2AD02BB1A84A46A00426004 /* SimpleLabelView.h */,
-				D2AD02BC1A84A46A00426004 /* SimpleLabelView.m */,
-				B30E2DC5205F9915008CD6A4 /* AutoHeightTextView.h */,
-				B30E2DC6205F9915008CD6A4 /* AutoHeightTextView.m */,
 			);
 			name = Snip;
 			sourceTree = "<group>";
@@ -303,6 +275,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -331,7 +304,6 @@
 				D265E3861A820CFB00E301D9 /* ScreenCapture_toolbar_rect_effect.tiff in Resources */,
 				32E071CD1A7C6A5A0094D5DE /* MainMenu.xib in Resources */,
 				D29A35711A8398BD00DD41BC /* app.icns in Resources */,
-				326AA0C21A7D1B4F00507232 /* SnipWindowController.xib in Resources */,
 				D265E3871A820CFB00E301D9 /* ScreenCapture_toolbar_rect_ineffect.tiff in Resources */,
 				D265E3881A820CFB00E301D9 /* ScreenCapture_toolbar_tick_normal.tiff in Resources */,
 				B30E2DC0205F6288008CD6A4 /* ScreenCapture_toolbar_text_effect.tiff in Resources */,
@@ -357,9 +329,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B30E2DC7205F9915008CD6A4 /* AutoHeightTextView.m in Sources */,
-				D265E38E1A824A0800E301D9 /* DrawPathInfo.m in Sources */,
-				D2AD02BD1A84A46A00426004 /* SimpleLabelView.m in Sources */,
 				326AA0B71A7D116E00507232 /* DemoViewController.m in Sources */,
 				326AA0C51A7D1B8200507232 /* SnipWindow.m in Sources */,
 				D29A356B1A836AC300DD41BC /* ImageButton.m in Sources */,
@@ -368,10 +337,8 @@
 				326AA0BA1A7D11E800507232 /* SnipManager.m in Sources */,
 				32E071C81A7C6A5A0094D5DE /* main.m in Sources */,
 				326AA0CB1A7D2C6000507232 /* SnipUtil.m in Sources */,
-				D29A356E1A836F8000DD41BC /* DrawPathView.m in Sources */,
 				326AA0C81A7D296800507232 /* SnipView.m in Sources */,
 				32E071C61A7C6A5A0094D5DE /* AppDelegate.m in Sources */,
-				D29A35681A835E5D00DD41BC /* NSColor+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

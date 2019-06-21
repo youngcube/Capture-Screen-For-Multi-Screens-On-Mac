@@ -7,14 +7,12 @@
 //
 
 #import "SnipView.h"
-#import "NSColor+Helper.h"
-#import "SimpleLabelView.h"
+#import "SnipManager.h"
 
 const int kDRAG_POINT_NUM = 8;
 const int kDRAG_POINT_LEN = 5;
 
 @interface SnipView ()
-@property SimpleLabelView *tipView;
 
 @end
 
@@ -43,22 +41,8 @@ const int kDRAG_POINT_LEN = 5;
     self.toolContainer = [[ToolContainer alloc] init];
     [self addSubview:self.toolContainer];
     [self hideToolkit];
-
-    self.tipView = [[SimpleLabelView alloc] init];
-    [self addSubview:self.tipView];
-    [self hideTip];
 }
 
-- (void)setupDrawPath
-{
-    if (self.pathView != nil) return;
-    NSLog(@"setupDrawPath");
-    self.pathView = [[DrawPathView alloc] init];
-    [self addSubview:self.pathView];
-    NSRect imageRect = NSIntersectionRect(self.drawingRect, self.bounds);
-    [self.pathView setFrame:imageRect];
-    [self.pathView setHidden:NO];
-}
 
 - (void)showToolkit
 {
@@ -89,35 +73,6 @@ const int kDRAG_POINT_LEN = 5;
 //    NSLog(@"snipview track mouse moved:%@",self);
 //    
 //}
-- (void)showTip
-{
-    NSPoint mouseLocation = [NSEvent mouseLocation];
-    NSRect frame = self.window.frame;
-    if (mouseLocation.x > frame.origin.x + frame.size.width - 100) {
-        mouseLocation.x -= 100;
-    }
-    if (mouseLocation.x < frame.origin.x) {
-        mouseLocation.x = frame.origin.x;
-    }
-    if (mouseLocation.y > frame.origin.y + frame.size.height - 26) {
-        mouseLocation.y -= 26;
-    }
-    if (mouseLocation.y < frame.origin.y) {
-        mouseLocation.y = frame.origin.y;
-    }
-    
-    NSRect rect = NSMakeRect(mouseLocation.x, mouseLocation.y, 100, 25);
-    NSRect imageRect = NSIntersectionRect(self.drawingRect, self.bounds);
-    self.tipView.text = [NSString stringWithFormat:@"%dX%d", (int) imageRect.size.width, (int) imageRect.size.height];
-    [self.tipView setFrame:[self.window convertRectFromScreen:rect]];
-    [self.tipView setHidden:NO];
-}
-
-- (void)hideTip
-{
-    [self.tipView setHidden:YES];
-}
-
 - (BOOL)acceptsFirstMouse:(NSEvent *)theEvent
 {
     return YES;
@@ -187,7 +142,7 @@ const int kDRAG_POINT_LEN = 5;
     if (self.image) {
         NSRect imageRect = NSIntersectionRect(self.drawingRect, self.bounds);
         [self.image drawInRect:imageRect fromRect:imageRect operation:NSCompositeSourceOver fraction:1.0];
-        [[NSColor colorFromInt:kBORDER_LINE_COLOR] set];
+        [[NSColor orangeColor] set];
         NSBezierPath *rectPath = [NSBezierPath bezierPath];
         [rectPath setLineWidth:kBORDER_LINE_WIDTH];
         [rectPath removeAllPoints];
